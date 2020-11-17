@@ -1,0 +1,23 @@
+{
+  "name": "miniprogameTest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jmXuGH/miniprogameTest.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jmXuGH/miniprogameTest/issues"
+  },
+  "homepage": "https://github.com/jmXuGH/miniprogameTest#readme",
+  "dependencies": {
+    "weui-miniprogram": "^1.0.6"
+  }
+}

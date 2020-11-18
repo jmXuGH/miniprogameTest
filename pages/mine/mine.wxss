@@ -1,1 +1,27 @@
 /* pages/mine/mine.wxss */
+.mine{
+  position:absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  padding: 0 35rpx;
+}
+.login{
+  width: 100%;
+  height: 120rpx;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 20rpx 0;
+}
+.login image{
+  width: 112rpx;
+  height: 112rpx;
+  margin-right: 25rpx;
+}
+.login text{
+  font-size: 32rpx;
+  color: #333;
+  font-weight: bold;
+}

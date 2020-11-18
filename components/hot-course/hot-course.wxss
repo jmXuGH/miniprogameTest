@@ -1,0 +1,107 @@
+/* components/hot-course/hot-course.wxss */
+.course{
+  margin-left: 20rpx;
+}
+.starT{
+  padding: 20rpx 30rpx 20rpx 10rpx;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.starT text{
+  font-size: 36rpx;
+  font-weight: 700;
+}
+.starT .title{
+  display: flex;
+  align-items: center;
+}
+.starT .title text{
+  font-size: 24rpx;
+  color: #999;
+}
+.starT .title image{
+  width: 26rpx;
+  height: 32rpx ;
+}
+.course-list{
+  padding: 20rpx;
+  overflow: hidden;
+}
+.course-list .item{
+  width: 45%;
+  float: left;
+  margin-bottom: 30rpx;
+}
+.course-list .item:nth-of-type(2),.course-list .item:nth-of-type(4){
+  margin-left: 10%;
+}
+.bg{
+  width: 270rpx;
+  height: 116rpx;
+  background-color:#cc66ff;
+  box-shadow: 0px 2px 15px rgba(204, 102, 255, 0.498039215686275);
+  border-radius: 6px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding:20rpx 0 20rpx 20rpx ;
+}
+.item:nth-of-type(2) .bg{
+  background-color: rgba(0, 153, 255, 1);
+  box-shadow: 0px 2px 15px rgba(0, 153, 255, 0.498039215686275);
+}
+.item:nth-of-type(3) .bg{
+  background-color: rgba(255, 102, 102, 1);
+  box-shadow: 0px 2px 15px rgba(255, 102, 102, 0.498039215686275);
+}
+.item:nth-of-type(4) .bg{
+  background-color: rgba(0, 204, 204, 1);
+  box-shadow: 0px 2px 15px rgba(0, 204, 204, 0.498039215686275);
+}
+.yuan{
+  width: 144rpx;
+  height: 144rpx;
+  position: absolute;
+  right: -45rpx;
+  top: -45rpx;
+}
+.bg .img{
+  width: 60rpx;
+  height: 60rpx;
+  position: absolute;
+  right: 15rpx;
+  top: 20rpx;
+  z-index: 99;
+}
+.bg .sub{
+  font-size: 28rpx;
+  color: #fff;
+  font-weight: bold;
+  display: block;
+}
+.bg .det{
+  font-size: 24rpx;
+  color:rgba(255, 255, 255, 0.658823529411765);
+}
+.subj{
+  font-size: 24rpx;
+  color: #666;
+  line-height: 80rpx;
+}
+.price{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.price image{
+  width: 28rpx;
+  height: 28rpx;
+  margin-right: 15rpx;
+}
+.price text{
+  font-size: 24rpx;
+  color: #333;
+  font-weight: bold;
+}

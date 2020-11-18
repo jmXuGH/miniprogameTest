@@ -1,0 +1,20 @@
+<!--components/star-teacher/start-teacher.wxml-->
+<view class="teacher">
+  <view class="starT">
+    <text>明星教师</text>
+    <view class="title">
+      <text>更多</text>
+      <image src="../../images/right.png"></image>
+    </view>
+  </view>
+  <scroll-view scroll-x="{{true}}">
+    <view class="scroll">
+      <view class="list"  wx:for="{{teacher}}" wx:key="id">
+        <image src="{{item.img}}"></image>
+        <text class="name">{{item.name}}</text>
+        <text class="job">{{item.job}}</text>
+      </view>
+  </view>
+  </scroll-view>
+</view>
+

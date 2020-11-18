@@ -1,3 +1,6 @@
-<view>
-首页
+<view class="home">
+  <banner/>
+  <star-teacher/>
+  <hot-course/>
+  <hot-activity/>
 </view>

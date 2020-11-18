@@ -1,0 +1,41 @@
+/* components/swiper/swiper.wxss */
+
+swiper{
+  height: 420rpx;
+  padding: 0 10rpx;
+}
+swiper image{
+  width: 100%;
+  height: 100%;
+}
+.swiper-list{
+  margin-top: 20rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.swiper-list .item, navigator{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 5rpx;
+  position: relative;
+}
+.swiper-list .img1{
+  width: 144rpx;
+  height: 144rpx;
+}
+.swiper-list .img2{
+  width: 36rpx;
+  height: 40rpx;
+  position: absolute;
+  top: 50%;
+  margin-top: -35rpx;
+}
+.swiper-list text{
+  position: absolute;
+  top: 120rpx;
+  font-size: 24rpx;
+  color: #333;
+}

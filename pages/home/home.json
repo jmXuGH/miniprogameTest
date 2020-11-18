@@ -1,4 +1,11 @@
 {
-  "usingComponents": {},
-  "navigationBarTitleText": "首页"
+  "usingComponents": {
+    "banner":"../../components/banner/banner",
+    "star-teacher":"../../components/star-teacher/star-teacher",
+    "hot-course":"../../components/hot-course/hot-course",
+    "hot-activity":"../../components/hot-activity/hot-activity"
+  },
+  "navigationBarTitleText": "首页",
+  "enablePullDownRefresh":true,
+  "backgroundTextStyle":"dark"
 }

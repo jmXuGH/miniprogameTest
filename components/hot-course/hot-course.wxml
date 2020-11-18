@@ -1,0 +1,26 @@
+<!--components/hot-course/hot-course.wxml-->
+<view class="course">
+  <view class="starT">
+    <text>热门课程</text>
+    <view class="title">
+      <text>更多</text>
+      <image src="../../images/right.png"></image>
+    </view>
+  </view>
+  <view class="course-list">
+    <view class="item" wx:for="{{course}}" wx:key="id">
+      <view class="bg">
+        <text class="sub">{{item.subject}}</text>
+        <text class="det">{{item.detail}}</text>
+        <image class="yuan" src="../../images/yuan.png"></image>
+        <image class="img" src="{{item.img}}"></image>
+      </view>
+      <text class="subj">{{item.subject1}}</text>
+      <view class="price">
+        <image src="../../images/money.png"></image>
+        <text>{{item.price}}</text>
+      </view>
+    </view>
+  </view>
+</view>
+

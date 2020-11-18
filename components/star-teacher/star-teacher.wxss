@@ -1,0 +1,60 @@
+/* components/star-teacher/start-teacher.wxss */
+.teacher{
+  margin-left: 20rpx;
+}
+.starT{
+  padding: 20rpx 30rpx 20rpx 10rpx;
+  margin-top: 40rpx;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.starT text{
+  font-size: 36rpx;
+  font-weight: 700;
+}
+.starT .title{
+  display: flex;
+  align-items: center;
+}
+.starT .title text{
+  font-size: 24rpx;
+  color: #999;
+}
+.starT .title image{
+  width: 26rpx;
+  height: 32rpx ;
+}
+scroll-view .scroll{
+  width: max-content;
+  height: 324rpx;
+}
+.list{
+  width: 240rpx;
+  height: 284rpx;
+  background-color: rgba(255, 255, 255, 1);
+  border-radius: 4px;
+  box-shadow: 0px 4px 25px rgba(153, 153, 153, 0.0980392156862745);
+  float: left;
+  position: relative;
+  margin: 10rpx;
+}
+.list image{
+  width: 190rpx;
+  height: 190rpx;
+  margin-left: 25rpx;
+}
+.list .name{
+  font-size: 28rpx;
+  color: #2F78FF;
+  display: block;
+  position: absolute;
+  top: 150rpx;
+  left: 80rpx;
+}
+.list .job{
+  font-size: 24rpx;
+  color: #333;
+  display: block;
+  text-align: center;
+}

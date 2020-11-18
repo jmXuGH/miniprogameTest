@@ -1,0 +1,25 @@
+<!--components/hot-activity/hot-activity.wxml-->
+<view class="activity">
+  <view class="starT">
+    <text>热门活动</text>
+    <view class="title">
+      <text>更多</text>
+      <image src="../../images/right.png"></image>
+    </view>
+  </view>
+  <view class="act-list">
+    <view class="item" wx:for="{{activity}}" wx:key="id">
+      <image src="{{item.img}}"></image>
+      <view class="content">
+        <text class="title">{{item.title}}</text>
+        <view class="state">
+          <text wx:if="{{item.state}}" class="state1">{{item.state}}</text>
+          <text wx:else class="state2">{{item.state1}}</text>
+          <view wx:if="{{item.num}}">
+            剩余<text class="num">{{item.num}}</text>个名额
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>

@@ -1,0 +1,78 @@
+/* components/hot-activity/hot-activity.wxss */
+.activity{
+  margin-left: 20rpx;
+}
+.starT{
+  padding: 20rpx 30rpx 20rpx 10rpx;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.starT text{
+  font-size: 36rpx;
+  font-weight: 700;
+}
+.starT .title{
+  display: flex;
+  align-items: center;
+}
+.starT .title text{
+  font-size: 24rpx;
+  color: #999;
+}
+.starT .title image{
+  width: 26rpx;
+  height: 32rpx ;
+}
+.act-list{
+  padding: 20rpx 30rpx;
+}
+.act-list .item{
+  width: 100%;
+  height: 184rpx;
+  box-shadow: 0px 2px 10px rgba(242, 242, 242, 0.498039215686275);
+  border-radius: 8px;
+  display: flex;
+  justify-content: flex-start;
+  
+  margin-bottom: 20rpx;
+}
+.act-list .item image{
+  width: 180rpx;
+  height: 180rpx;
+}
+.act-list .item .content{
+  width: 70%;
+  padding:30rpx 20rpx 30rpx 10rpx; 
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.act-list .item .title{
+  font-size: 28rpx;
+  color: #333;
+}
+.act-list .item .state{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.act-list .item .state text{
+  font-size: 24rpx;
+  font-weight: bold;
+}
+.act-list .item .state .state1{
+  color: #ff0000;
+}
+.act-list .item .state .state2{
+  color: #2f78ff;
+}
+.act-list .item .state view{
+  font-size: 24rpx;
+  color:#ccc
+  
+  ;
+}
+.act-list .item .state .num{
+  color: #ff0000;
+}

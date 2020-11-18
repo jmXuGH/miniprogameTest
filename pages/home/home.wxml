@@ -1,7 +1,6 @@
 <view class="home">
-  <swiper>
-    <swiper-item>
-      <image src=""></image>
-    </swiper-item>
-  </swiper>
+  <banner/>
+  <star-teacher/>
+  <hot-course/>
+  <hot-activity/>
 </view>

@@ -1,0 +1,20 @@
+<!--components/swiper/swiper.wxml-->
+<view class="swiper">
+<swiper class="banner" autoplay="true" indicator-dots="true" indicator-active-color="#1296db" circular="true">
+  <swiper-item wx:for="{{banner}}" wx:key="id">
+    <image src="{{item.img}}"></image>
+  </swiper-item>
+</swiper>
+
+<view class="swiper-list">
+  <view wx:for="{{list}}" wx:key="id" class="item">
+    <navigator url="../../pages/hot/hot" open-type='switchTab'>
+      <image src="{{item.img}}" class="img1"></image>
+      <image src="{{item.img1}}" class="img2"></image>
+      <text>{{item.text}}</text>
+    </navigator>
+  </view>
+</view>
+</view>
+
+

@@ -1,0 +1,4 @@
+<view class="search-btn">
+    <mp-icon icon="search" color="#999" size="{{25}}"></mp-icon>
+    <text class="txt">搜索课程/头条/活动</text>
+  </view>

@@ -1,0 +1,16 @@
+/* components/search-btn/search.wxss */
+.search-btn {
+  color: #999;
+  background-color: rgba(242, 242, 242, 0.5);
+  border-radius: 40rpx;
+  line-height: 80rpx;
+  text-align: center;
+  font-size: 28rpx;
+  margin: 0 auto;
+  width: 670rpx;
+  height: 80rpx;
+}
+
+.search-btn .txt {
+  margin-left: 20rpx;
+}

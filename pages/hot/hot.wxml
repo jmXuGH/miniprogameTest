@@ -1,35 +1,5 @@
 <!--pages/hot/hot.wxml-->
 <view>
-  <view class="search-btn">
-    <mp-icon icon="search" color="#999" size="{{25}}"></mp-icon>
-    <text class="txt">搜索课程/头条/活动</text>
-  </view>
-
-  <view class="content">
-    <view class="con-item">
-      <view class="left-wrap">
-        <text class="tit">幼儿英语入门</text>
-        <text class="con-txt">外教一对一辅导</text>
-        <view class="rangepng">
-          <image src="../../images/u115.png"></image>
-        </view>
-        <view class="iconpng">
-          <image src="../../images/u118.png"></image>
-        </view>
-
-      </view>
-      <view class="right-wrap">
-        <view>
-          <text class="tit">幼儿英语入门</text>
-        </view>
-        
-        <view class="right-con">
-          <view>
-            <text class="charge">2999.00</text>
-          </view>
-          <text class="peopleNums">323人在学</text>
-        </view>
-      </view>
-    </view>
-  </view>
+  <Search />
+  <HotList />
 </view>

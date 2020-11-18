@@ -1,0 +1,93 @@
+/* components/hot-list/HotList.wxss */
+
+.content {
+  margin-top: 50rpx;
+  padding: 0 30rpx;
+}
+
+.con-item {
+  position: relative;
+  display: flex;
+  height: 200rpx;
+  margin-bottom: 20rpx;
+}
+
+.left-wrap {
+  background-color: rgba(204, 102, 255, 1);
+  box-shadow: 0px 2px 15px rgba(204, 102, 255, 0.50);
+  width: 290rpx;
+  height: 156rpx;
+  border-radius: 6px;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.left-wrap .tit {
+  margin: 20rpx 0 0 20rpx;
+  font-size: 28rpx;
+  font-weight: bold;
+}
+
+.left-wrap .con-txt {
+  color: rgba(255, 255, 255, 0.66);
+  font-size: 24rpx;
+  margin: 10rpx 0 0 20rpx;
+}
+
+.left-wrap .rangepng .image {
+  width: 144rpx;
+  height: 144rpx;
+  position: absolute;
+  top: -50rpx;
+  right: -50rpx;
+}
+
+.left-wrap .iconpng .image {
+  width: 64rpx;
+  height: 60rpx;
+  position: absolute;
+  top: 20rpx;
+  right: 10rpx;
+}
+
+.right-wrap {
+  width: 340rpx;
+  margin-left: 30rpx;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 156rpx;
+}
+
+.right-wrap .tit {
+  font-size: 16px;
+  color: #333;
+  font-weight: bold;
+}
+
+.right-wrap .right-con {
+  display: flex;
+  font-size: 24rpx;
+  justify-content: space-between;
+}
+
+.charge-wrap{
+  display: flex;
+  align-items: center;
+}
+
+.right-con .image {
+  width: 28rpx;
+  height: 28rpx;
+}
+
+.charge {
+  color: #efb336;
+  font-weight: bold;
+}
+
+.peopleNums {
+  color: #999;
+}

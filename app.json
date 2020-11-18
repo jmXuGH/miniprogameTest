@@ -3,20 +3,20 @@
   "pages": [
     "pages/home/home",
     "pages/hot/hot",
-    "pages/mine/mine"
+    "pages/mine/mine",
+    "pages/courseDetail/detail"
   ],
   "window": {
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
-    
     "navigationBarTextStyle": "black"
   },
   "tabBar": {
     "list": [
       {
-      "pagePath": "pages/home/home",
-      "iconPath": "./images/home.png",
-      "selectedIconPath": "./images/home1.png"
+        "pagePath": "pages/home/home",
+        "iconPath": "./images/home.png",
+        "selectedIconPath": "./images/home1.png"
       },
       {
         "pagePath": "pages/hot/hot",
@@ -28,7 +28,7 @@
         "iconPath": "./images/mine.png",
         "selectedIconPath": "./images/mine1.png"
       }
-  ]
+    ]
   },
   "style": "v2",
   "sitemapLocation": "sitemap.json"

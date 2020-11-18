@@ -1,0 +1,33 @@
+<!--components/hot-list/HotList.wxml-->
+<!--components/search-btn/search.wxml-->
+<view class="content">
+  <view  wx:for="{{stylesArr}}" wx:key="id">
+    <navigator url="/pages/courseDetail/detail" app-id="{{item.id}}" hover-class="none" class="con-item">
+      <view class="left-wrap" style="background:{{item.bg}}">
+        <text class="tit">{{item.tit}}</text>
+        <text class="con-txt">外教一对一辅导</text>
+        <view class="rangepng">
+          <image class="image" src="../../images/u115.png"></image>
+        </view>
+        <view class="iconpng">
+          <image class="image" src="{{item.img}}"></image>
+        </view>
+
+      </view>
+      <view class="right-wrap">
+        <view>
+          <text class="tit">{{item.tit}}</text>
+        </view>
+
+        <view class="right-con">
+          <view class="charge-wrap">
+            <image class="image" src="../../images/u120.png"></image>
+            <text class="charge">{{item.charge}}</text>
+          </view>
+          <text class="peopleNums">{{item.people}}人在学</text>
+        </view>
+      </view>
+    </navigator>
+  </view>
+
+</view>

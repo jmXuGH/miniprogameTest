@@ -1,4 +1,8 @@
 {
-  "usingComponents": {},
+  "usingComponents": {
+    "mp-icon": "/miniprogram_npm/weui-miniprogram/icon/icon",
+    "HotList": "../../components/hot-list/HotList",
+    "Search": "../../components/search-btn/search"
+  },
   "navigationBarTitleText": "热门课程"
 }

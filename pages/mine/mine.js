@@ -5,7 +5,36 @@ Page({
    * 页面的初始数据
    */
   data: {
-
+    choose:[
+      {
+        id:1,img:'../../images/daizf.png',title:'待支付'
+      },
+      {
+        id:2,img:'../../images/xuexz.png',title:'学习中'
+      },
+      {
+        id:3,img:'../../images/yijs.png',title:'已结束'
+      },{
+        id:4,img:'../../images/all.png',title:'全部'
+      }
+    ],
+    bottomList:[
+      {
+        id:1,img:'../../images/wdhd.png',title:'我的活动'
+      },
+      {
+        id:2,img:'../../images/wdxx.png',title:'我的消息'
+      },
+      {
+        id:3,img:'../../images/yqyj.png',title:'邀请有奖'
+      },
+      {
+        id:4,img:'../../images/gywm.png',title:'关于我们'
+      },
+      {
+        id:5,img:'../../images/bbsj.png',title:'绑定手机'
+      }
+    ]
   },
 
   /**

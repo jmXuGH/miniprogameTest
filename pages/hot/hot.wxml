@@ -1,4 +1,5 @@
 <!--pages/hot/hot.wxml-->
 <view>
-热门课程
+  <Search />
+  <HotList />
 </view>
